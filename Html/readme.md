@@ -1,0 +1,17 @@
+I used HTML to build a multi-page website with only HTML5. The main goal was to practice the structure of a website, arrange information with semantic HTML elements and link different pages using navigation links.
+I made the website as an university site. It holds details about the student, current courses, the weekly class schedule, hobbies and a contact form. At this stage CSS and JavaScript were not used because the main focus was on learning how HTML provides the structure and content of a web page.
+I organized the project with an index.html file a pages folder containing the other HTML pages and an images folder holding the profile and university images.
+The first page I created was index.html which serves as the home page of the website. It has the title My University Website. Uses semantic elements like <header> <nav> <main> <section> <article> and <footer>.
+The home page shows information such as the students name, degree program, semester, a profile image and a short description. It also gives details about Universidad Yachay Tech and a list of interests.
+I added a navigation menu to link the pages of the website. The menu gives links to Home, Courses, Schedule, Hobbies and Contact. I used paths to move between files in different folders which lets me navigate the website without typing each page address manually.
+The courses.html page shows details about the courses taken this semester. Each course lists its name, instructor, main topics and three topics that I hope to learn.
+I organized this information with ordered and lists. Unordered lists listed the topics while ordered lists listed the learning objectives. I also added a link about Operating Systems so the user could open an extra resource in a new browser tab.
+The schedule.html page was built with an HTML table. The table shows the university schedule listing the days of the week and the various class times. Elements like <table> <thead> <tbody> <tr> <th> and <td> were used. I added the rowspan attribute because some classes last than one time period letting one cell represent a class that lasts several hours without repeating the course name.
+I added a border to make the table visible. Because Workshop 1 focused on HTML I kept the table’s visual design very basic.
+The contact.html page was made to practice HTML forms. The form contains input types, including name, email, date of birth, degree program, semester, reason for contact, message, an acceptance checkbox and a submit button.
+The form does not send information to a server. Its purpose is to show how elements like <form> <label> <input> <select> <option>. <Textarea> work.
+The other1.html page was made to add personal information. This page lists hobbies in categories Sports, Reading and Music.
+I split the information with elements like <section> and <article>. Lists and paragraphs described the hobbies. I added an external Goodreads link, with target=\"_blank\" so it opens in another browser tab.
+Throughout Workshop 1 I practiced key HTML concepts. These included the HTML5 document structure, semantic HTML elements, headings, paragraphs, images ordered and unordered lists, internal and external links, tables, forms and various input types.
+Another key idea was project organization. I put files into folders based on their purpose, which made the website easier to understand and maintain.
+Relative paths were also crucial because they let the HTML pages and images link correctly even when they were stored in directories.
