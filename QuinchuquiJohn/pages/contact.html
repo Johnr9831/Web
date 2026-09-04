@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | My University Website</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+
+<body>
+
+    <header>
+
+        <h1>Contact Me</h1>
+
+        <p class="subtitle">
+            Send Me a Message
+        </p>
+
+    </header>
+
+
+    <nav>
+
+        <a href="../index.html">Home</a>
+
+        <a href="courses.html">Courses</a>
+
+        <a href="schedule.html">Schedule</a>
+
+        <a href="hobbies.html">Hobbies</a>
+
+        <a class="active" href="contact.html">Contact</a>
+
+    </nav>
+
+
+    <main>
+
+        <div class="contact-container">
+
+
+            <!-- CONTACT INFORMATION -->
+
+            <section class="contact-info">
+
+                <h2>Contact Information</h2>
+
+                <p>
+                    You can use this form to contact me
+                    about academic questions, information,
+                    suggestions, or other topics.
+                </p>
+
+                <p>
+                    <strong>University:</strong><br>
+                    Universidad Yachay Tech
+                </p>
+
+                <p>
+                    <strong>Program:</strong><br>
+                    Information Technology / Software Engineering
+                </p>
+
+                <p>
+                    <strong>Location:</strong><br>
+                    Ecuador
+                </p>
+
+            </section>
+
+
+            <!-- CONTACT FORM -->
+
+            <section class="contact-form">
+
+                <h2>Contact Form</h2>
+
+
+                <form>
+
+
+                    <!-- NAME -->
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Name:
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- EMAIL -->
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email:
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="example@email.com"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- DATE OF BIRTH -->
+
+                    <div class="form-group">
+
+                        <label for="birthdate">
+                            Date of Birth:
+                        </label>
+
+                        <input
+                            type="date"
+                            id="birthdate"
+                            name="birthdate"
+                        >
+
+                    </div>
+
+
+                    <!-- DEGREE PROGRAM -->
+
+                    <div class="form-group">
+
+                        <label for="degree">
+                            Degree Program:
+                        </label>
+
+                        <input
+                            type="text"
+                            id="degree"
+                            name="degree"
+                            placeholder="Enter your degree program"
+                        >
+
+                    </div>
+
+
+                    <!-- SEMESTER -->
+
+                    <div class="form-group">
+
+                        <label for="semester">
+                            Semester:
+                        </label>
+
+                        <input
+                            type="number"
+                            id="semester"
+                            name="semester"
+                            min="1"
+                            max="12"
+                            placeholder="Enter your semester"
+                        >
+
+                    </div>
+
+
+                    <!-- REASON -->
+
+                    <div class="form-group">
+
+                        <label for="reason">
+                            Reason for Contact:
+                        </label>
+
+                        <select
+                            id="reason"
+                            name="reason"
+                        >
+
+                            <option value="question">
+                                Question
+                            </option>
+
+                            <option value="information">
+                                Information
+                            </option>
+
+                            <option value="suggestion">
+                                Suggestion
+                            </option>
+
+                            <option value="other">
+                                Other
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- MESSAGE -->
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message:
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Write your message here..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <!-- TERMS -->
+
+                    <div class="checkbox-group">
+
+                        <input
+                            type="checkbox"
+                            id="accept"
+                            name="accept"
+                            required
+                        >
+
+                        <label for="accept">
+                            I accept the terms and conditions
+                        </label>
+
+                    </div>
+
+
+                    <!-- BUTTON -->
+
+                    <button
+                        class="submit-button"
+                        type="submit"
+                    >
+                        Submit
+                    </button>
+
+
+                </form>
+
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            &copy; 2026 John Quinchuqui | Universidad Yachay Tech
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
